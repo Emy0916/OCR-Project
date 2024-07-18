@@ -57,8 +57,8 @@ def search_directory_and_write_to_csv(directory, output_csv):
             print(f'Keine PDF-Dateien im Verzeichnis {directory} gefunden.')
 
 # Hauptverzeichnis zum Suchen
-main_directory = r'U:\project\Neuer Ordner'
-output_csv = r'U:\project\Neuer Ordner\results.csv'  # Hier den gewünschten Dateinamen für die CSV-Datei angeben
+main_directory = r'I:\Nachweise aus Seeburger Rechnungen\Questions'
+output_csv = r'I:\Nachweise aus Seeburger Rechnungen\Questions\results.csv'  # Hier den gewünschten Dateinamen für die CSV-Datei angeben
 
 # Suche im Hauptverzeichnis und Schreiben in CSV
 search_directory_and_write_to_csv(main_directory, output_csv)
